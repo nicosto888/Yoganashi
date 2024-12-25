@@ -1,0 +1,1 @@
+Diese Website bietet Informationen zu Yoga-, Meditations- und Poledance-Kursen, die von Natascha Stolze geleitet werden. Ziel der Website ist es, Kursteilnehmer zu gewinnen und eine professionelle, ansprechende Plattform für die Kursangebote bereitzustellen. Die Website enthält auch spezifische Buchungsmöglichkeiten für Studenten über den Hochschulsport.
