@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga, Meditation und Poledance mit Natascha Stolze</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #fafafa;
+        }
+        header {
+            background: linear-gradient(90deg, #f7a8a8, #fbc2eb);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #f4f4f4;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+        }
+        .course {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .course img {
+            max-width: 30%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .course img:hover {
+            transform: scale(1.1);
+        }
+        button {
+            background-color: #f7a8a8;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #e56a6a;
+        }
+        .testimonials, .about, .benefits {
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: #f7a8a8;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: white;
+            font-size: 1.2rem;
+        }
+        .social-icons a:hover {
+            color: #f7a8a8;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Yoga, Meditation und Poledance mit Natascha Stolze</h1>
+        <p>Entdecke Fitness, Achtsamkeit und Eleganz in einer einzigartigen Atmosphäre.</p>
+    </header>
+
+    <nav>
+        <a href="#yoga">Yoga</a>
+        <a href="#meditation">Meditation</a>
+        <a href="#poledance">Poledance</a>
+        <a href="#about">Über Natascha</a>
+    </nav>
+
+    <section id="yoga" class="course">
+        <h2>Yoga Kurse</h2>
+        <img src="pexels-prasanthinturi-1051838(1).jpg" alt="Yoga Kurs im Freien">
+        <p>Entdecke deine innere Ruhe und Flexibilität in unseren Yoga Kursen. Egal, ob Anfänger oder Fortgeschrittener, bei uns ist jeder willkommen.</p>
+        <button onclick="window.location.href='mailto:natascha.l.stolze@outlook.de?subject=Yoga Kurs Anmeldung&body=Ich möchte mich für den Yoga Kurs anmelden.'">Jetzt anmelden</button>
+    </section>
+
+    <section id="meditation" class="course">
+        <h2>Meditationskurse</h2>
+        <img src="pexels-frendsmans-6100296.jpg" alt="Meditation mit Hund">
+        <p>Lerne, wie du deinen Geist beruhigen und dich auf das Hier und Jetzt konzentrieren kannst. Meditation ist der Schlüssel zu mehr Gelassenheit im Alltag.</p>
+        <button onclick="window.location.href='mailto:natascha.l.stolze@outlook.de?subject=Meditation Kurs Informationen&body=Ich möchte mehr über die Meditationskurse erfahren.'">Kurs buchen</button>
+    </section>
+
+    <section id="poledance" class="course">
+        <h2>Poledance Stunden</h2>
+        <img src="pexels-cottonbro-4056529.jpg" alt="Poledance Training">
+        <p>Erlebe die Kombination aus Kraft, Eleganz und Spaß in unseren Poledance Stunden. Ein Workout, das deine Fitness und dein Selbstbewusstsein stärkt.</p>
+        <button onclick="window.location.href='mailto:natascha.l.stolze@outlook.de?subject=Poledance Kurs Buchung&body=Ich möchte mich für einen Poledance Kurs anmelden.'">Kurs buchen</button><br><br>
+        <button onclick="window.location.href='https://www.hochschulsportbuchung.uni-jena.de/angebote/aktueller_zeitraum/_Pole-Fitness__Dance__Level_1_.html'">Über Hochschulsport buchen</button>
+        <p><small>Dieses Angebot richtet sich speziell an Studenten, die über den Hochschulsport teilnehmen möchten.</small></p>
+    </section>
+
+    <section class="benefits">
+        <h2>Warum unsere Kurse?</h2>
+        <ul>
+            <li>Professionelle Trainerin mit jahrelanger Erfahrung</li>
+            <li>Kleine Gruppen für eine persönliche Atmosphäre</li>
+            <li>Individuelle Betreuung und angepasste Übungen</li>
+        </ul>
+    </section>
+
+    <section class="about" id="about">
+        <h2>Über Natascha Stolze</h2>
+        <p>Natascha Stolze ist eine erfahrene Trainerin, die Menschen hilft, ihre innere Balance und körperliche Fitness zu finden. Mit Leidenschaft für Bewegung und Achtsamkeit leitet sie inspirierende Kurse für alle Niveaus.</p>
+    </section>
+
+    <section class="testimonials">
+        <h2>Kundenstimmen</h2>
+        <blockquote>"Die Kurse bei Natascha haben mein Leben verändert. Ich fühle mich so viel energiegeladener und ausgeglichener!" - Finn</blockquote>
+        <blockquote>"Der Poledance-Kurs war eine tolle Erfahrung. Ich habe nicht nur neue Moves gelernt, sondern auch Selbstbewusstsein gewonnen." - Anja</blockquote>
+    </section>
+
+    <footer>
+        <h2>Kontakt</h2>
+        <p>Natascha Stolze</p>
+        <p>Email: <a href="mailto:natascha.l.stolze@outlook.de">natascha.l.stolze@outlook.de</a></p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/nataschastolze?igsh=Y2QxZ20zcDQ4anM5">&#x1F310; Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
